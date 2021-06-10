@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    outline: none;
+}
+h1{
+    text-align: center;
+}
+.navbar {
+    position: relative;
+    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .5rem 1rem;
+    background-color: rgb(42, 43, 43);
+    color: aliceblue;
+}
+.fontsetting button {
+    width: 80px;
+    padding: 2px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: gray;
+    height: 28px;
+}
+.lang {
+    margin-left: 700px;
+}
+.fontsetting select {
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 150px;
+    padding-left: 50px;
+    height: 28px;
+}
+h3 {
+    color: brown;
+    margin-left: 98px;
+    padding-top: 10px;
+}
+.container {
+    position: absolute;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(238, 238, 238);
+    margin: 35px;
+    padding: 5px;
+    border: solid 0.5px gray;
+}
+form {
+    display: block;
+}
+
+.formheading {
+    font-weight: bold;
+    padding: 18px;
+    background-color: rgb(199, 197, 197);
+}
+.descrip {
+    padding: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgb(224, 171, 157);
+}
+ul {
+    list-style-type: none;
+}
+.far {
+    font-weight: 400;
+    font-size: 24px;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+a{
+    color: lightgray;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.btn-success {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+footer{
+    position: absolute;
+    width: 1287px;
+    margin-top: 2733px;
+    text-emphasis-color: white;
+}
+p#foot{
+    font-size: 1em;
+    color: lightgray;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.ter{
+    position: relative;
+}   
